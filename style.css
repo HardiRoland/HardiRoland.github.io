@@ -1,0 +1,86 @@
+body {
+    background-color: #3f1400
+    
+}
+
+main {
+
+   background-color: rgb(128, 34, 6);
+   width: 80%;
+   height: 900px; 
+   margin:auto;
+
+}
+
+#cim {
+    font-size: 80px;
+    width:80%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.playfield {
+    display:flex;
+    background-color: rgb(172, 69, 9);
+    margin:auto;
+    width: 80%;
+    height: 600px;
+    flex-direction: column;
+}
+
+.texts {
+    width: 70%;
+    height: 300px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.solution {
+    width: 70%;
+    margin: 0 auto 0 auto;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#feladat {
+    font-size: 50px;
+    margin: auto;
+}
+
+.task {
+    font-size: 40px;
+    margin: auto;
+}
+
+#megoldas {
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    border-radius:5px;
+    margin: 0px;
+    padding: 0px;
+}
+button:hover {
+    background-color: orange;
+}
+
+.uzenet {
+    margin: auto;
+    width: 70%;
+    height: 70px;
+    font-size: 30px;
+    text-align: center;
+}
